@@ -1,0 +1,165 @@
+# 📊 DS Vendas - Full Stack Application
+
+Full stack study project developed during **Spring React Week by DevSuperior**.
+
+The application combines a **Spring Boot backend** with a **React + TypeScript frontend**, providing a practical example of a complete web application with REST APIs, persistence, and data visualization.
+
+> ⚠️ **Project Status**
+>
+> This is an older study project and uses framework versions from the period when it was created.
+>
+> The repository is maintained as part of my technical learning history and portfolio.
+
+## 🛠 Tech Stack
+
+### Backend
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Spring Security
+- Maven
+- H2 Database
+- PostgreSQL
+
+### Frontend
+- React
+- TypeScript
+- React Scripts
+- Jest
+- React Testing Library
+
+## 🎯 Project Purpose
+
+The main objective of this project was to build and understand a complete full stack application.
+
+The project explores concepts such as:
+
+- REST API development
+- Frontend/backend integration
+- Database persistence
+- ORM with JPA
+- Spring Boot application structure
+- React components
+- TypeScript
+- HTTP communication between frontend and backend
+- Application testing
+
+## 📁 Project Structure
+
+```text
+projeto-sds3/
+├── backend/
+│   ├── src/
+│   ├── pom.xml
+│   ├── mvnw
+│   └── mvnw.cmd
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── yarn.lock
+│
+└── README.md
+```
+
+## ⚙️ Backend
+
+The backend is implemented using Spring Boot and provides the application's REST services.
+
+Main technologies include:
+
+- Spring Web
+- Spring Data JPA
+- Spring Security
+- H2 for local development
+- PostgreSQL support
+
+### Running the Backend
+
+Navigate to the backend directory:
+
+```bash
+cd backend
+```
+
+On Linux/macOS:
+
+```bash
+./mvnw spring-boot:run
+```
+
+On Windows:
+
+```bash
+mvnw.cmd spring-boot:run
+```
+
+## 🖥 Frontend
+
+The frontend was built with React and TypeScript.
+
+Navigate to:
+
+```bash
+cd frontend
+```
+
+Install the dependencies:
+
+```bash
+yarn install
+```
+
+Start the application:
+
+```bash
+yarn start
+```
+
+## 🧪 Frontend Tests
+
+The frontend includes support for automated tests using Jest and React Testing Library.
+
+Run the tests with:
+
+```bash
+yarn test
+```
+
+## 🗄 Database
+
+The backend supports:
+
+- H2 Database
+- PostgreSQL
+
+H2 can be used for local development and testing, while PostgreSQL can be used as a persistent database environment.
+
+## 🧠 What This Project Demonstrates
+
+This project helped me understand how the different layers of a web application work together:
+
+- React frontend
+- REST API
+- Spring Boot backend
+- Database persistence
+- HTTP communication
+- Data modeling
+- Application testing
+
+From a QA perspective, understanding the complete application architecture also helps when designing better integration and end-to-end test strategies.
+
+## 📚 Learning Context
+
+This repository was developed during **Spring React Week by DevSuperior**.
+
+The project represents part of my studies in full stack development and helped expand my understanding beyond test automation into the architecture and implementation of the systems being tested.
+
+## 📌 Project Status
+
+This is a **study and reference project**.
+
+The framework and dependency versions reflect the period when the project was developed and may require updates to run in a modern environment.
